@@ -1,3 +1,3 @@
-Did: Session 2 — Label node on screen, attached a script, used _ready() to set text on startup. Found real repo is ~/Desktop/Game_dev_begin (two empty leftover folders elsewhere, safe to ignore). Hit Homebrew git conflict again on push — fixed by using /usr/bin/git push directly.
-Next: Session 3 — moving block (ColorRect), _process(delta), input handling, Vector2.
-Confused about: nothing code-related yet.
+Session 3 (done): ColorRect, _process(delta), input handling, Vector2, speed tweaks, discussed .normalized()/clamp() (not yet applied)
+Session 4 (next): your call — either apply .normalized()/clamp()/color-change to finish rounding out Session 3, or move to something new. Both are fair game.
+Confused about: nothing yet

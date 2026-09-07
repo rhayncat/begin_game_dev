@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c0s5h6b5n2eb"]
 
 [ext_resource type="Script" uid="uid://c1rrkvcwr0nvu" path="res://scenes/label.gd" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://beijikgb5621w" path="res://scenes/player.gd" id="2_0wfyh"]
 
 [node name="Control" type="Control" unique_id=180639186]
 layout_mode = 3
@@ -16,3 +17,10 @@ offset_right = 40.0
 offset_bottom = 23.0
 text = "Hello"
 script = ExtResource("1_o5qli")
+
+[node name="Player" type="ColorRect" parent="Label" unique_id=1356658765]
+layout_mode = 0
+offset_right = 50.0
+offset_bottom = 50.0
+color = Color(0.5951167, 0.8392264, 0.07717127, 1)
+script = ExtResource("2_0wfyh")
